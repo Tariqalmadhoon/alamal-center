@@ -649,6 +649,7 @@
             border-radius: 5px;
             font-weight: 700;
             font-size: 15px;
+            margin-bottom: 30px;
         }
 
         /* ============ PAGE NUMBER ============ */
