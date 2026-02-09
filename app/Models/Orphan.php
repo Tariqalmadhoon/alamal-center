@@ -121,4 +121,28 @@ class Orphan extends Model
     {
         return $this->documents()->where('type', $type)->first();
     }
+
+    /**
+     * العلاقة مع الاستفادات
+     */
+    public function benefits()
+    {
+        return $this->hasMany(Benefit::class);
+    }
+
+    /**
+     * آخر استفادة
+     */
+    public function getLastBenefitAttribute()
+    {
+        return $this->benefits()->latest('benefit_date')->first();
+    }
+
+    /**
+     * عدد الاستفادات
+     */
+    public function getBenefitsCountAttribute()
+    {
+        return $this->benefits()->count();
+    }
 }

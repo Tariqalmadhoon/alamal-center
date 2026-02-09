@@ -47,7 +47,7 @@ class OrphanController extends Controller
     {
         $validated = $request->validate([
             'full_name' => 'required|string|max:255',
-            'national_id' => 'required|string|max:20',
+            'national_id' => 'required|string|max:20|unique:orphans,national_id',
             'birth_date' => 'required|date',
             'gender' => 'required|in:male,female',
             'social_status' => 'required|string|max:255',
@@ -154,7 +154,7 @@ class OrphanController extends Controller
     {
         $validated = $request->validate([
             'full_name' => 'required|string|max:255',
-            'national_id' => 'required|string|max:20',
+            'national_id' => 'required|string|max:20|unique:orphans,national_id,' . $orphan->id,
             'birth_date' => 'required|date',
             'gender' => 'required|in:male,female',
             'social_status' => 'required|string|max:255',

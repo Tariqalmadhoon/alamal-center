@@ -21,6 +21,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'role',
     ];
 
     /**
@@ -42,4 +43,28 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    /**
+     * التحقق من كون المستخدم admin
+     */
+    public function isAdmin(): bool
+    {
+        return $this->role === 'admin';
+    }
+
+    /**
+     * التحقق من كون المستخدم viewer
+     */
+    public function isViewer(): bool
+    {
+        return $this->role === 'viewer';
+    }
+
+    /**
+     * الحصول على اسم الصلاحية بالعربي
+     */
+    public function getRoleNameAttribute(): string
+    {
+        return $this->role === 'admin' ? 'مدير النظام' : 'متطلع';
+    }
 }
