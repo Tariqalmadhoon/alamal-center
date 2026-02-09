@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?mso-application progid="Word.Document"?>
+<w:wordDocument xmlns:w="http://schemas.microsoft.com/office/word/2003/wordml" 
+                xmlns:v="urn:schemas-microsoft-com:vml"
+                xmlns:w10="urn:schemas-microsoft-com:office:word"
+                xmlns:wx="http://schemas.microsoft.com/office/word/2003/auxHint">
+<w:body>
+
+<!-- ========== الرأس الأخضر ========== -->
+<w:tbl>
+  <w:tblPr>
+    <w:tblW w:w="5000" w:type="pct"/>
+    <w:tblBorders>
+      <w:bottom w:val="single" w:sz="24" w:color="C9A227"/>
+    </w:tblBorders>
+    <w:shd w:val="clear" w:color="auto" w:fill="0C5B3A"/>
+    <w:bidiVisual/>
+  </w:tblPr>
+  <w:tr>
+    <w:tc>
+      <w:tcPr>
+        <w:tcW w:w="1000" w:type="pct"/>
+        <w:shd w:val="clear" w:color="auto" w:fill="0C5B3A"/>
+        <w:vAlign w:val="center"/>
+      </w:tcPr>
+      <w:p>
+        <w:pPr><w:jc w:val="center"/></w:pPr>
+        <w:r>
+          <w:rPr>
+            <w:b/><w:sz w:val="20"/>
+            <w:color w:val="FFFFFF"/>
+          </w:rPr>
+          <w:t>شعار</w:t>
+        </w:r>
+      </w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr>
+        <w:tcW w:w="3000" w:type="pct"/>
+        <w:shd w:val="clear" w:color="auto" w:fill="0C5B3A"/>
+        <w:vAlign w:val="center"/>
+      </w:tcPr>
+      <w:p>
+        <w:pPr><w:jc w:val="center"/></w:pPr>
+        <w:r>
+          <w:rPr>
+            <w:b/><w:sz w:val="36"/>
+            <w:color w:val="FFFFFF"/>
+            <w:rFonts w:ascii="Traditional Arabic" w:h-ansi="Traditional Arabic" w:cs="Traditional Arabic"/>
+          </w:rPr>
+          <w:t>مركز الأمل للتنمية ورعاية الأيتام</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:pPr><w:jc w:val="center"/></w:pPr>
+        <w:r>
+          <w:rPr>
+            <w:sz w:val="20"/>
+            <w:color w:val="E8F5EE"/>
+          </w:rPr>
+          <w:t>AL-AMAL CENTER FOR ORPHANS DEVELOPMENT &amp; CARE</w:t>
+        </w:r>
+      </w:p>
+      <w:p>
+        <w:pPr><w:jc w:val="center"/></w:pPr>
+        <w:r>
+          <w:rPr>
+            <w:sz w:val="16"/>
+            <w:color w:val="C4DBC8"/>
+          </w:rPr>
+          <w:t>قطاع غزة - فلسطين | 2025</w:t>
+        </w:r>
+      </w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr>
+        <w:tcW w:w="1000" w:type="pct"/>
+        <w:shd w:val="clear" w:color="auto" w:fill="0C5B3A"/>
+        <w:vAlign w:val="center"/>
+      </w:tcPr>
+      <w:p>
+        <w:pPr><w:jc w:val="center"/></w:pPr>
+        <w:r>
+          <w:rPr>
+            <w:sz w:val="16"/>
+            <w:color w:val="FFFFFF"/>
+          </w:rPr>
+          <w:t>رعاية وتنمية الأيتام</w:t>
+        </w:r>
+      </w:p>
+    </w:tc>
+  </w:tr>
+</w:tbl>
+
+<!-- مسافة -->
+<w:p><w:r><w:t xml:space="preserve"> </w:t></w:r></w:p>
+
+<!-- ========== العنوان الرئيسي ========== -->
+<w:p>
+  <w:pPr>
+    <w:jc w:val="center"/>
+    <w:spacing w:before="400" w:after="200"/>
+  </w:pPr>
+  <w:r>
+    <w:rPr>
+      <w:b/><w:sz w:val="40"/>
+      <w:color w:val="0C5B3A"/>
+      <w:rFonts w:ascii="Traditional Arabic" w:h-ansi="Traditional Arabic" w:cs="Traditional Arabic"/>
+    </w:rPr>
+    <w:t>◆ استمارة كفالة اليتيم ◆</w:t>
+  </w:r>
+</w:p>
+<w:p>
+  <w:pPr>
+    <w:jc w:val="center"/>
+    <w:spacing w:after="300"/>
+  </w:pPr>
+  <w:r>
+    <w:rPr>
+      <w:sz w:val="20"/>
+      <w:color w:val="6B7370"/>
+    </w:rPr>
+    <w:t>Orphan Child Sponsorship Form</w:t>
+  </w:r>
+</w:p>
+
+<!-- ========== أرقام الملف ========== -->
+<w:tbl>
+  <w:tblPr>
+    <w:tblW w:w="4500" w:type="pct"/>
+    <w:jc w:val="center"/>
+    <w:tblBorders>
+      <w:top w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:left w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:bottom w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:right w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:insideH w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:insideV w:val="single" w:sz="4" w:color="D4DAD6"/>
+    </w:tblBorders>
+    <w:shd w:val="clear" w:color="auto" w:fill="E8F5EE"/>
+    <w:bidiVisual/>
+  </w:tblPr>
+  <w:tr>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1667" w:type="pct"/><w:shd w:val="clear" w:color="auto" w:fill="E8F5EE"/></w:tcPr>
+      <w:p>
+        <w:r><w:rPr><w:color w:val="6B7370"/><w:sz w:val="22"/></w:rPr><w:t>رقم الملف: </w:t></w:r>
+        <w:r><w:rPr><w:b/><w:color w:val="0C5B3A"/><w:sz w:val="28"/></w:rPr><w:t>33</w:t></w:r>
+      </w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1667" w:type="pct"/><w:shd w:val="clear" w:color="auto" w:fill="E8F5EE"/></w:tcPr>
+      <w:p>
+        <w:r><w:rPr><w:color w:val="6B7370"/><w:sz w:val="22"/></w:rPr><w:t>التسلسل: </w:t></w:r>
+        <w:r><w:rPr><w:b/><w:color w:val="0C5B3A"/><w:sz w:val="28"/></w:rPr><w:t>4</w:t></w:r>
+      </w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1666" w:type="pct"/><w:shd w:val="clear" w:color="auto" w:fill="E8F5EE"/></w:tcPr>
+      <w:p>
+        <w:r><w:rPr><w:color w:val="6B7370"/><w:sz w:val="22"/></w:rPr><w:t>تاريخ التسجيل: </w:t></w:r>
+        <w:r><w:rPr><w:b/><w:color w:val="0C5B3A"/><w:sz w:val="24"/></w:rPr><w:t>24/08/2025</w:t></w:r>
+      </w:p>
+    </w:tc>
+  </w:tr>
+</w:tbl>
+
+<!-- مسافة -->
+<w:p><w:r><w:t xml:space="preserve"> </w:t></w:r></w:p>
+
+<!-- ========== عنوان بيانات الطفل ========== -->
+<w:tbl>
+  <w:tblPr>
+    <w:tblW w:w="4500" w:type="pct"/>
+    <w:jc w:val="center"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="0C5B3A"/>
+    <w:bidiVisual/>
+  </w:tblPr>
+  <w:tr>
+    <w:tc>
+      <w:tcPr><w:shd w:val="clear" w:color="auto" w:fill="0C5B3A"/></w:tcPr>
+      <w:p>
+        <w:pPr><w:spacing w:before="60" w:after="60"/></w:pPr>
+        <w:r>
+          <w:rPr><w:b/><w:color w:val="FFFFFF"/><w:sz w:val="24"/></w:rPr>
+          <w:t>● بيانات الطفل اليتيم</w:t>
+        </w:r>
+      </w:p>
+    </w:tc>
+  </w:tr>
+</w:tbl>
+
+<!-- جدول بيانات الطفل -->
+<w:tbl>
+  <w:tblPr>
+    <w:tblW w:w="4500" w:type="pct"/>
+    <w:jc w:val="center"/>
+    <w:tblBorders>
+      <w:top w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:left w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:bottom w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:right w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:insideH w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:insideV w:val="single" w:sz="4" w:color="D4DAD6"/>
+    </w:tblBorders>
+    <w:bidiVisual/>
+  </w:tblPr>
+  <w:tr>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1100" w:type="pct"/><w:shd w:val="clear" w:color="auto" w:fill="F5F7F6"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:b/><w:color w:val="3A3F3A"/><w:sz w:val="22"/></w:rPr><w:t>اسم الطفل الكامل</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="3900" w:type="pct"/><w:gridSpan w:val="3"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:sz w:val="22"/></w:rPr><w:t>ملاك الله أكرم جواد عابدين</w:t></w:r></w:p>
+    </w:tc>
+  </w:tr>
+  <w:tr>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1100" w:type="pct"/><w:shd w:val="clear" w:color="auto" w:fill="F5F7F6"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:b/><w:color w:val="3A3F3A"/><w:sz w:val="22"/></w:rPr><w:t>الجنس</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1400" w:type="pct"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:sz w:val="22"/></w:rPr><w:t>أنثى</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1100" w:type="pct"/><w:shd w:val="clear" w:color="auto" w:fill="F5F7F6"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:b/><w:color w:val="3A3F3A"/><w:sz w:val="22"/></w:rPr><w:t>تاريخ الميلاد</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1400" w:type="pct"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:sz w:val="22"/></w:rPr><w:t>11/01/2025</w:t></w:r></w:p>
+    </w:tc>
+  </w:tr>
+  <w:tr>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1100" w:type="pct"/><w:shd w:val="clear" w:color="auto" w:fill="F5F7F6"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:b/><w:color w:val="3A3F3A"/><w:sz w:val="22"/></w:rPr><w:t>العمر</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1400" w:type="pct"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:sz w:val="22"/></w:rPr><w:t>1 سنة</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1100" w:type="pct"/><w:shd w:val="clear" w:color="auto" w:fill="F5F7F6"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:b/><w:color w:val="3A3F3A"/><w:sz w:val="22"/></w:rPr><w:t>عدد الإخوة</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1400" w:type="pct"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:sz w:val="22"/></w:rPr><w:t>1</w:t></w:r></w:p>
+    </w:tc>
+  </w:tr>
+  <w:tr>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1100" w:type="pct"/><w:shd w:val="clear" w:color="auto" w:fill="F5F7F6"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:b/><w:color w:val="3A3F3A"/><w:sz w:val="22"/></w:rPr><w:t>نوع اليُتم</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="3900" w:type="pct"/><w:gridSpan w:val="3"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:sz w:val="22"/></w:rPr><w:t>يتيم الأب</w:t></w:r></w:p>
+    </w:tc>
+  </w:tr>
+</w:tbl>
+
+<!-- مسافة -->
+<w:p><w:r><w:t xml:space="preserve"> </w:t></w:r></w:p>
+
+<!-- ========== عنوان بيانات الوالدين ========== -->
+<w:tbl>
+  <w:tblPr>
+    <w:tblW w:w="4500" w:type="pct"/>
+    <w:jc w:val="center"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="0C5B3A"/>
+    <w:bidiVisual/>
+  </w:tblPr>
+  <w:tr>
+    <w:tc>
+      <w:tcPr><w:shd w:val="clear" w:color="auto" w:fill="0C5B3A"/></w:tcPr>
+      <w:p>
+        <w:pPr><w:spacing w:before="60" w:after="60"/></w:pPr>
+        <w:r>
+          <w:rPr><w:b/><w:color w:val="FFFFFF"/><w:sz w:val="24"/></w:rPr>
+          <w:t>● بيانات الوالدين</w:t>
+        </w:r>
+      </w:p>
+    </w:tc>
+  </w:tr>
+</w:tbl>
+
+<!-- جدول بيانات الوالدين -->
+<w:tbl>
+  <w:tblPr>
+    <w:tblW w:w="4500" w:type="pct"/>
+    <w:jc w:val="center"/>
+    <w:tblBorders>
+      <w:top w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:left w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:bottom w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:right w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:insideH w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:insideV w:val="single" w:sz="4" w:color="D4DAD6"/>
+    </w:tblBorders>
+    <w:bidiVisual/>
+  </w:tblPr>
+  <w:tr>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1100" w:type="pct"/><w:shd w:val="clear" w:color="auto" w:fill="F5F7F6"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:b/><w:color w:val="3A3F3A"/><w:sz w:val="22"/></w:rPr><w:t>اسم الأب</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1400" w:type="pct"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:sz w:val="22"/></w:rPr><w:t>أكرم جواد عابدين</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1100" w:type="pct"/><w:shd w:val="clear" w:color="auto" w:fill="F5F7F6"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:b/><w:color w:val="3A3F3A"/><w:sz w:val="22"/></w:rPr><w:t>رقم هوية الأب</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1400" w:type="pct"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:sz w:val="22"/></w:rPr><w:t>470265646</w:t></w:r></w:p>
+    </w:tc>
+  </w:tr>
+  <w:tr>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1100" w:type="pct"/><w:shd w:val="clear" w:color="auto" w:fill="F5F7F6"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:b/><w:color w:val="3A3F3A"/><w:sz w:val="22"/></w:rPr><w:t>سبب الوفاة</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1400" w:type="pct"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:sz w:val="22"/></w:rPr><w:t>شهيد</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1100" w:type="pct"/><w:shd w:val="clear" w:color="auto" w:fill="F5F7F6"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:b/><w:color w:val="3A3F3A"/><w:sz w:val="22"/></w:rPr><w:t>تاريخ الوفاة</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1400" w:type="pct"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:sz w:val="22"/></w:rPr><w:t>---</w:t></w:r></w:p>
+    </w:tc>
+  </w:tr>
+  <w:tr>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1100" w:type="pct"/><w:shd w:val="clear" w:color="auto" w:fill="F5F7F6"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:b/><w:color w:val="3A3F3A"/><w:sz w:val="22"/></w:rPr><w:t>اسم الأم</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1400" w:type="pct"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:sz w:val="22"/></w:rPr><w:t>تهاني بشير عبد عابدين</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1100" w:type="pct"/><w:shd w:val="clear" w:color="auto" w:fill="F5F7F6"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:b/><w:color w:val="3A3F3A"/><w:sz w:val="22"/></w:rPr><w:t>رقم هوية الأم</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1400" w:type="pct"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:sz w:val="22"/></w:rPr><w:t>400280301</w:t></w:r></w:p>
+    </w:tc>
+  </w:tr>
+  <w:tr>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1100" w:type="pct"/><w:shd w:val="clear" w:color="auto" w:fill="F5F7F6"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:b/><w:color w:val="3A3F3A"/><w:sz w:val="22"/></w:rPr><w:t>جوال الأم</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1400" w:type="pct"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:sz w:val="22"/></w:rPr><w:t>0592070534</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1100" w:type="pct"/><w:shd w:val="clear" w:color="auto" w:fill="F5F7F6"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:b/><w:color w:val="3A3F3A"/><w:sz w:val="22"/></w:rPr><w:t>العنوان</w:t></w:r></w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr><w:tcW w:w="1400" w:type="pct"/></w:tcPr>
+      <w:p><w:r><w:rPr><w:sz w:val="22"/></w:rPr><w:t>قطاع غزة</w:t></w:r></w:p>
+    </w:tc>
+  </w:tr>
+</w:tbl>
+
+<!-- مسافة -->
+<w:p><w:r><w:t xml:space="preserve"> </w:t></w:r></w:p>
+
+<!-- ========== عنوان المرفقات ========== -->
+<w:tbl>
+  <w:tblPr>
+    <w:tblW w:w="4500" w:type="pct"/>
+    <w:jc w:val="center"/>
+    <w:shd w:val="clear" w:color="auto" w:fill="0C5B3A"/>
+    <w:bidiVisual/>
+  </w:tblPr>
+  <w:tr>
+    <w:tc>
+      <w:tcPr><w:shd w:val="clear" w:color="auto" w:fill="0C5B3A"/></w:tcPr>
+      <w:p>
+        <w:pPr><w:spacing w:before="60" w:after="60"/></w:pPr>
+        <w:r>
+          <w:rPr><w:b/><w:color w:val="FFFFFF"/><w:sz w:val="24"/></w:rPr>
+          <w:t>● المرفقات والوثائق المطلوبة</w:t>
+        </w:r>
+      </w:p>
+    </w:tc>
+  </w:tr>
+</w:tbl>
+
+<!-- جدول المرفقات -->
+<w:tbl>
+  <w:tblPr>
+    <w:tblW w:w="4500" w:type="pct"/>
+    <w:jc w:val="center"/>
+    <w:tblBorders>
+      <w:top w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:left w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:bottom w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:right w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:insideH w:val="single" w:sz="4" w:color="D4DAD6"/>
+      <w:insideV w:val="single" w:sz="4" w:color="D4DAD6"/>
+    </w:tblBorders>
+    <w:shd w:val="clear" w:color="auto" w:fill="F5F7F6"/>
+    <w:bidiVisual/>
+  </w:tblPr>
+  <w:tr>
+    <w:trPr><w:trHeight w:val="1800" w:hRule="atLeast"/></w:trPr>
+    <w:tc>
+      <w:tcPr>
+        <w:tcW w:w="1250" w:type="pct"/>
+        <w:tcBorders>
+          <w:top w:val="dashed" w:sz="8" w:color="0C5B3A"/>
+          <w:left w:val="dashed" w:sz="8" w:color="0C5B3A"/>
+          <w:bottom w:val="dashed" w:sz="8" w:color="0C5B3A"/>
+          <w:right w:val="dashed" w:sz="8" w:color="0C5B3A"/>
+        </w:tcBorders>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+        <w:vAlign w:val="center"/>
+      </w:tcPr>
+      <w:p>
+        <w:pPr><w:jc w:val="center"/></w:pPr>
+        <w:r><w:rPr><w:sz w:val="48"/><w:color w:val="0C5B3A"/></w:rPr><w:t>📷</w:t></w:r>
+      </w:p>
+      <w:p>
+        <w:pPr><w:jc w:val="center"/></w:pPr>
+        <w:r><w:rPr><w:b/><w:sz w:val="20"/><w:color w:val="6B7370"/></w:rPr><w:t>صورة الطفل الشخصية</w:t></w:r>
+      </w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr>
+        <w:tcW w:w="1250" w:type="pct"/>
+        <w:tcBorders>
+          <w:top w:val="dashed" w:sz="8" w:color="0C5B3A"/>
+          <w:left w:val="dashed" w:sz="8" w:color="0C5B3A"/>
+          <w:bottom w:val="dashed" w:sz="8" w:color="0C5B3A"/>
+          <w:right w:val="dashed" w:sz="8" w:color="0C5B3A"/>
+        </w:tcBorders>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+        <w:vAlign w:val="center"/>
+      </w:tcPr>
+      <w:p>
+        <w:pPr><w:jc w:val="center"/></w:pPr>
+        <w:r><w:rPr><w:sz w:val="48"/><w:color w:val="0C5B3A"/></w:rPr><w:t>📄</w:t></w:r>
+      </w:p>
+      <w:p>
+        <w:pPr><w:jc w:val="center"/></w:pPr>
+        <w:r><w:rPr><w:b/><w:sz w:val="20"/><w:color w:val="6B7370"/></w:rPr><w:t>شهادة وفاة الأب</w:t></w:r>
+      </w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr>
+        <w:tcW w:w="1250" w:type="pct"/>
+        <w:tcBorders>
+          <w:top w:val="dashed" w:sz="8" w:color="0C5B3A"/>
+          <w:left w:val="dashed" w:sz="8" w:color="0C5B3A"/>
+          <w:bottom w:val="dashed" w:sz="8" w:color="0C5B3A"/>
+          <w:right w:val="dashed" w:sz="8" w:color="0C5B3A"/>
+        </w:tcBorders>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+        <w:vAlign w:val="center"/>
+      </w:tcPr>
+      <w:p>
+        <w:pPr><w:jc w:val="center"/></w:pPr>
+        <w:r><w:rPr><w:sz w:val="48"/><w:color w:val="0C5B3A"/></w:rPr><w:t>📋</w:t></w:r>
+      </w:p>
+      <w:p>
+        <w:pPr><w:jc w:val="center"/></w:pPr>
+        <w:r><w:rPr><w:b/><w:sz w:val="20"/><w:color w:val="6B7370"/></w:rPr><w:t>شهادة ميلاد الطفل</w:t></w:r>
+      </w:p>
+    </w:tc>
+    <w:tc>
+      <w:tcPr>
+        <w:tcW w:w="1250" w:type="pct"/>
+        <w:tcBorders>
+          <w:top w:val="dashed" w:sz="8" w:color="0C5B3A"/>
+          <w:left w:val="dashed" w:sz="8" w:color="0C5B3A"/>
+          <w:bottom w:val="dashed" w:sz="8" w:color="0C5B3A"/>
+          <w:right w:val="dashed" w:sz="8" w:color="0C5B3A"/>
+        </w:tcBorders>
+        <w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/>
+        <w:vAlign w:val="center"/>
+      </w:tcPr>
+      <w:p>
+        <w:pPr><w:jc w:val="center"/></w:pPr>
+        <w:r><w:rPr><w:sz w:val="48"/><w:color w:val="0C5B3A"/></w:rPr><w:t>🪪</w:t></w:r>
+      </w:p>
+      <w:p>
+        <w:pPr><w:jc w:val="center"/></w:pPr>
+        <w:r><w:rPr><w:b/><w:sz w:val="20"/><w:color w:val="6B7370"/></w:rPr><w:t>صورة هوية الأم</w:t></w:r>
+      </w:p>
+    </w:tc>
+  </w:tr>
+</w:tbl>
+
+<!-- مسافة -->
+<w:p><w:r><w:t xml:space="preserve"> </w:t></w:r></w:p>
+
+<!-- ========== الملاحظات ========== -->
+<w:tbl>
+  <w:tblPr>
+    <w:tblW w:w="4500" w:type="pct"/>
+    <w:jc w:val="center"/>
+    <w:tblBorders>
+      <w:top w:val="single" w:sz="4" w:color="E6D9A8"/>
+      <w:left w:val="single" w:sz="4" w:color="E6D9A8"/>
+      <w:bottom w:val="single" w:sz="4" w:color="E6D9A8"/>
+      <w:right w:val="single" w:sz="16" w:color="C9A227"/>
+    </w:tblBorders>
+    <w:shd w:val="clear" w:color="auto" w:fill="FFFDF5"/>
+    <w:bidiVisual/>
+  </w:tblPr>
+  <w:tr>
+    <w:tc>
+      <w:tcPr><w:shd w:val="clear" w:color="auto" w:fill="FFFDF5"/></w:tcPr>
+      <w:p>
+        <w:pPr><w:spacing w:before="120"/></w:pPr>
+        <w:r><w:rPr><w:b/><w:sz w:val="24"/><w:color w:val="3A3F3A"/></w:rPr><w:t>📌 ملاحظات هامة</w:t></w:r>
+      </w:p>
+      <w:p>
+        <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="6B7370"/></w:rPr><w:t>• يرجى إرفاق جميع الوثائق المطلوبة لإتمام ملف الكفالة.</w:t></w:r>
+      </w:p>
+      <w:p>
+        <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="6B7370"/></w:rPr><w:t>• يجب أن تكون الصور واضحة وحديثة.</w:t></w:r>
+      </w:p>
+      <w:p>
+        <w:pPr><w:spacing w:after="120"/></w:pPr>
+        <w:r><w:rPr><w:sz w:val="22"/><w:color w:val="6B7370"/></w:rPr><w:t>• للاستفسار: يرجى التواصل مع إدارة المركز.</w:t></w:r>
+      </w:p>
+    </w:tc>
+  </w:tr>
+</w:tbl>
+
+<!-- مسافة -->
+<w:p><w:r><w:t xml:space="preserve"> </w:t></w:r></w:p>
+<w:p><w:r><w:t xml:space="preserve"> </w:t></w:r></w:p>
+
+<!-- ========== التذييل ========== -->
+<w:tbl>
+  <w:tblPr>
+    <w:tblW w:w="5000" w:type="pct"/>
+    <w:tblBorders>
+      <w:top w:val="single" w:sz="12" w:color="C9A227"/>
+    </w:tblBorders>
+    <w:shd w:val="clear" w:color="auto" w:fill="0C5B3A"/>
+    <w:bidiVisual/>
+  </w:tblPr>
+  <w:tr>
+    <w:tc>
+      <w:tcPr><w:shd w:val="clear" w:color="auto" w:fill="0C5B3A"/></w:tcPr>
+      <w:p>
+        <w:pPr><w:jc w:val="center"/><w:spacing w:before="100" w:after="100"/></w:pPr>
+        <w:r>
+          <w:rPr><w:sz w:val="18"/><w:color w:val="FFFFFF"/></w:rPr>
+          <w:t>مركز الأمل للتنمية ورعاية الأيتام | AL-AMAL CENTER © 2025</w:t>
+        </w:r>
+      </w:p>
+    </w:tc>
+  </w:tr>
+</w:tbl>
+
+</w:body>
+</w:wordDocument>

@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>استمارة كفالة الطفل - مركز الأمل</title>
+  <style>
+    /* ========== المتغيرات الأساسية ========== */
+    :root {
+      --green-primary: #0c5b3a;
+      --green-dark: #084a2e;
+      --green-light: #e8f5ee;
+      --gold: #c9a227;
+      --gray-dark: #3a3f3a;
+      --gray-medium: #6b7370;
+      --gray-light: #f5f7f6;
+      --border-color: #d4dad6;
+      --white: #ffffff;
+    }
+
+    /* ========== تنسيق الصفحة الأساسي ========== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', 'Arial', 'Traditional Arabic', sans-serif;
+      background: linear-gradient(135deg, #e8f5ee 0%, #d4e6dc 100%);
+      min-height: 100vh;
+      padding: 20px;
+      direction: rtl;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      background: var(--white);
+      box-shadow: 0 25px 60px rgba(12, 91, 58, 0.15);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* ========== الرأس الأخضر ========== */
+    .header {
+      background: linear-gradient(135deg, var(--green-primary) 0%, var(--green-dark) 100%);
+      color: var(--white);
+      padding: 20px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+    }
+
+    .header::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--gold), #d4af37, var(--gold));
+    }
+
+    .header-logo {
+      width: 75px;
+      height: 75px;
+      background: var(--white);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      overflow: hidden;
+    }
+
+    .header-logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .header-text {
+      flex: 1;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .header-text-ar {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 6px;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+
+    .header-text-en {
+      font-size: 13px;
+      font-weight: 500;
+      opacity: 0.95;
+      letter-spacing: 0.5px;
+    }
+
+    .header-date {
+      font-size: 11px;
+      opacity: 0.85;
+      margin-top: 6px;
+      padding: 4px 12px;
+      background: rgba(255,255,255,0.15);
+      border-radius: 12px;
+      display: inline-block;
+    }
+
+    .header-badge {
+      width: 75px;
+      height: 75px;
+      border: 2px solid rgba(255,255,255,0.4);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: 600;
+      text-align: center;
+      line-height: 1.3;
+    }
+
+    /* ========== قسم الشعار المركزي ========== */
+    .center-emblem {
+      margin: 28px auto 20px;
+      width: 130px;
+      height: 130px;
+      border: 3px solid var(--green-primary);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--white);
+      box-shadow: 0 8px 25px rgba(12, 91, 58, 0.12);
+      overflow: hidden;
+    }
+
+    .center-emblem img {
+      width: 95%;
+      height: 95%;
+      object-fit: contain;
+    }
+
+    /* ========== عنوان الاستمارة ========== */
+    .form-title {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .form-title h1 {
+      font-size: 20px;
+      color: var(--green-primary);
+      font-weight: 700;
+      margin-bottom: 8px;
+      position: relative;
+      display: inline-block;
+    }
+
+    .form-title h1::before,
+    .form-title h1::after {
+      content: '◆';
+      color: var(--gold);
+      font-size: 10px;
+      margin: 0 12px;
+      vertical-align: middle;
+    }
+
+    .form-title .subtitle {
+      color: var(--gray-medium);
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    .title-divider {
+      width: 200px;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--green-primary), transparent);
+      margin: 10px auto 0;
+    }
+
+    /* ========== المحتوى الرئيسي ========== */
+    .content {
+      padding: 0 35px 25px;
+    }
+
+    /* ========== أرقام الملف ========== */
+    .file-numbers {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      gap: 15px;
+    }
+
+    .file-number-box {
+      flex: 1;
+      background: var(--green-light);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 12px 15px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .file-number-box .label {
+      color: var(--gray-medium);
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .file-number-box .value {
+      color: var(--green-primary);
+      font-size: 16px;
+      font-weight: 700;
+      background: var(--white);
+      padding: 4px 15px;
+      border-radius: 5px;
+      border: 1px solid var(--border-color);
+    }
+
+    /* ========== الجداول ========== */
+    .section-title {
+      background: linear-gradient(135deg, var(--green-primary) 0%, var(--green-dark) 100%);
+      color: var(--white);
+      padding: 10px 18px;
+      font-size: 14px;
+      font-weight: 700;
+      border-radius: 6px 6px 0 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .section-title::before {
+      content: '●';
+      font-size: 8px;
+    }
+
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      font-size: 13px;
+      border: 1px solid var(--border-color);
+      border-top: none;
+    }
+
+    .data-table td {
+      padding: 10px 14px;
+      border: 1px solid var(--border-color);
+      vertical-align: middle;
+    }
+
+    .data-table .label {
+      background: var(--gray-light);
+      color: var(--gray-dark);
+      font-weight: 600;
+      width: 22%;
+    }
+
+    .data-table .value {
+      background: var(--white);
+      color: var(--gray-dark);
+    }
+
+    /* ========== قسم الصور والمرفقات ========== */
+    .attachments-section {
+      margin-top: 25px;
+    }
+
+    .photos-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+      margin-top: 15px;
+      padding: 20px;
+      background: var(--gray-light);
+      border: 1px solid var(--border-color);
+      border-top: none;
+      border-radius: 0 0 6px 6px;
+    }
+
+    .photo-box {
+      background: var(--white);
+      border: 2px dashed rgba(12, 91, 58, 0.35);
+      border-radius: 8px;
+      height: 140px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .photo-box:hover {
+      border-color: var(--green-primary);
+      background: var(--green-light);
+    }
+
+    .photo-box .icon {
+      font-size: 32px;
+      color: var(--green-primary);
+      margin-bottom: 8px;
+      opacity: 0.6;
+    }
+
+    .photo-box .label {
+      color: var(--gray-medium);
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+
+    /* ========== الملاحظات ========== */
+    .notes-section {
+      margin-top: 20px;
+      padding: 15px;
+      background: linear-gradient(135deg, #fffdf5 0%, #fff9e6 100%);
+      border: 1px solid #e6d9a8;
+      border-radius: 8px;
+      border-right: 4px solid var(--gold);
+    }
+
+    .notes-title {
+      color: var(--gray-dark);
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .notes-content {
+      color: var(--gray-medium);
+      font-size: 12px;
+      line-height: 1.7;
+    }
+
+    /* ========== التذييل ========== */
+    .footer {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(135deg, var(--green-primary) 0%, var(--green-dark) 100%);
+      padding: 12px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--gold), #d4af37, var(--gold));
+    }
+
+    .footer-text {
+      color: rgba(255,255,255,0.9);
+      font-size: 10px;
+    }
+
+    .footer-logo {
+      width: 35px;
+      height: 35px;
+      background: var(--white);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .footer-logo img {
+      width: 90%;
+      height: 90%;
+      object-fit: contain;
+    }
+
+    /* ========== طباعة ========== */
+    @media print {
+      body {
+        background: none;
+        padding: 0;
+      }
+      .page {
+        box-shadow: none;
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <!-- ========== الرأس ========== -->
+    <div class="header">
+      <div class="header-logo">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%230c5b3a'/%3E%3Ccircle cx='50' cy='50' r='42' fill='white'/%3E%3Ctext x='50' y='25' text-anchor='middle' fill='%230c5b3a' font-size='10' font-weight='bold' font-family='Arial'%3Eمركز الأمل%3C/text%3E%3Cpath d='M35 55 Q50 35 65 55' stroke='%230c5b3a' stroke-width='3' fill='none'/%3E%3Ccircle cx='42' cy='52' r='6' fill='%230c5b3a'/%3E%3Ccircle cx='58' cy='52' r='6' fill='%230c5b3a'/%3E%3Cpath d='M30 65 Q50 80 70 65' stroke='%230c5b3a' stroke-width='2' fill='none'/%3E%3Ctext x='50' y='93' text-anchor='middle' fill='%230c5b3a' font-size='7' font-weight='bold' font-family='Arial'%3EAL-AMAL%3C/text%3E%3C/svg%3E" alt="شعار المركز">
+      </div>
+      <div class="header-text">
+        <div class="header-text-ar">مركز الأمل للتنمية ورعاية الأيتام</div>
+        <div class="header-text-en">AL-AMAL CENTER FOR ORPHANS DEVELOPMENT & CARE</div>
+        <div class="header-date">قطاع غزة - فلسطين | تأسس 2023</div>
+      </div>
+      <div class="header-badge">
+        رعاية<br>وتنمية<br>الأيتام
+      </div>
+    </div>
+
+    <!-- ========== الشعار المركزي ========== -->
+    <div class="center-emblem">
+      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%230c5b3a'/%3E%3Ccircle cx='50' cy='50' r='42' fill='white'/%3E%3Ctext x='50' y='22' text-anchor='middle' fill='%230c5b3a' font-size='9' font-weight='bold' font-family='Arial'%3Eمركز الأمل%3C/text%3E%3Cpath d='M50 30 L50 45 M40 35 L50 30 L60 35' stroke='%230c5b3a' stroke-width='2' fill='none'/%3E%3Ccircle cx='42' cy='52' r='7' fill='%230c5b3a'/%3E%3Ccircle cx='58' cy='52' r='7' fill='%230c5b3a'/%3E%3Cpath d='M30 58 Q35 70 50 72 Q65 70 70 58' stroke='%230c5b3a' stroke-width='2.5' fill='none'/%3E%3Cpath d='M25 60 C28 75 50 80 50 80 C50 80 72 75 75 60' stroke='%230c5b3a' stroke-width='1.5' fill='none'/%3E%3Ctext x='50' y='92' text-anchor='middle' fill='%230c5b3a' font-size='7' font-weight='bold' font-family='Arial'%3EAL-AMAL CENTER%3C/text%3E%3C/svg%3E" alt="ختم المركز">
+    </div>
+
+    <!-- ========== عنوان الاستمارة ========== -->
+    <div class="form-title">
+      <h1>استمارة كفالة اليتيم</h1>
+      <div class="subtitle">Orphan Child Sponsorship Form</div>
+      <div class="title-divider"></div>
+    </div>
+
+    <!-- ========== المحتوى ========== -->
+    <div class="content">
+      <!-- أرقام الملف -->
+      <div class="file-numbers">
+        <div class="file-number-box">
+          <span class="label">رقم الملف:</span>
+          <span class="value">33</span>
+        </div>
+        <div class="file-number-box">
+          <span class="label">التسلسل:</span>
+          <span class="value">4</span>
+        </div>
+        <div class="file-number-box">
+          <span class="label">تاريخ التسجيل:</span>
+          <span class="value">24/08/2025</span>
+        </div>
+      </div>
+
+      <!-- بيانات الطفل -->
+      <div class="section-title">بيانات الطفل اليتيم</div>
+      <table class="data-table">
+        <tr>
+          <td class="label">اسم الطفل الكامل</td>
+          <td class="value" colspan="3">ملاك الله أكرم جواد عابدين</td>
+        </tr>
+        <tr>
+          <td class="label">الجنس</td>
+          <td class="value">أنثى</td>
+          <td class="label">تاريخ الميلاد</td>
+          <td class="value">11/01/2025</td>
+        </tr>
+        <tr>
+          <td class="label">العمر</td>
+          <td class="value">1 سنة</td>
+          <td class="label">عدد الإخوة</td>
+          <td class="value">1</td>
+        </tr>
+        <tr>
+          <td class="label">نوع اليُتم</td>
+          <td class="value" colspan="3">يتيم الأب</td>
+        </tr>
+      </table>
+
+      <!-- بيانات الوالدين -->
+      <div class="section-title">بيانات الوالدين</div>
+      <table class="data-table">
+        <tr>
+          <td class="label">اسم الأب</td>
+          <td class="value">أكرم جواد عابدين</td>
+          <td class="label">رقم هوية الأب</td>
+          <td class="value">470265646</td>
+        </tr>
+        <tr>
+          <td class="label">سبب الوفاة</td>
+          <td class="value">شهيد</td>
+          <td class="label">تاريخ الوفاة</td>
+          <td class="value">---</td>
+        </tr>
+        <tr>
+          <td class="label">اسم الأم</td>
+          <td class="value">تهاني بشير عبد عابدين</td>
+          <td class="label">رقم هوية الأم</td>
+          <td class="value">400280301</td>
+        </tr>
+        <tr>
+          <td class="label">جوال الأم</td>
+          <td class="value">0592070534</td>
+          <td class="label">العنوان</td>
+          <td class="value">قطاع غزة</td>
+        </tr>
+      </table>
+
+      <!-- حالة الكفالة -->
+      <div class="section-title">حالة الكفالة</div>
+      <table class="data-table">
+        <tr>
+          <td class="label">الحالة الحالية</td>
+          <td class="value" colspan="3">تم إدراجها في ملف الطفل - بانتظار كفيل</td>
+        </tr>
+      </table>
+
+      <!-- المرفقات والصور -->
+      <div class="attachments-section">
+        <div class="section-title">المرفقات والوثائق المطلوبة</div>
+        <div class="photos-grid">
+          <div class="photo-box">
+            <div class="icon">📷</div>
+            <div class="label">صورة الطفل<br>الشخصية</div>
+          </div>
+          <div class="photo-box">
+            <div class="icon">📄</div>
+            <div class="label">شهادة وفاة<br>الأب / إثبات</div>
+          </div>
+          <div class="photo-box">
+            <div class="icon">📋</div>
+            <div class="label">شهادة ميلاد<br>الطفل</div>
+          </div>
+          <div class="photo-box">
+            <div class="icon">🪪</div>
+            <div class="label">صورة هوية<br>الأم</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- الملاحظات -->
+      <div class="notes-section">
+        <div class="notes-title">📌 ملاحظات هامة</div>
+        <div class="notes-content">
+          • يرجى إرفاق جميع الوثائق المطلوبة لإتمام ملف الكفالة.<br>
+          • يجب أن تكون الصور واضحة وحديثة.<br>
+          • للاستفسار: يرجى التواصل مع إدارة المركز.
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== التذييل ========== -->
+    <div class="footer">
+      <div class="footer-text">
+        مركز الأمل للتنمية ورعاية الأيتام | AL-AMAL CENTER © 2025
+      </div>
+      <div class="footer-logo">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%230c5b3a'/%3E%3Ctext x='50' y='55' text-anchor='middle' fill='white' font-size='12' font-weight='bold'%3E🌿%3C/text%3E%3C/svg%3E" alt="شعار">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
