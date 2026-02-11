@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\OrphanController;
 use App\Http\Controllers\BenefitController;
+use App\Http\Controllers\MediaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,6 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return redirect()->route('login');
 });
+
+Route::get('/media/{path}', [MediaController::class, 'show'])
+    ->where('path', '.*')
+    ->name('media.show');
 
 // Dashboard يحول لقائمة الأيتام
 Route::get('/dashboard', function () {

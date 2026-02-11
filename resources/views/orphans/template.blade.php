@@ -878,7 +878,7 @@
                     <div class="profile-grid">
                         <div class="profile-photo-box">
                             @if($orphan->photo)
-                                <img src="{{ asset('storage/' . $orphan->photo) }}" alt="صورة اليتيم" class="profile-photo">
+                                <img src="{{ $orphan->photo_url }}" alt="صورة اليتيم" class="profile-photo">
                             @else
                                 <div class="profile-photo" style="background: #e2e8f0; display: flex; align-items: center; justify-content: center;">
                                     <svg width="80" height="80" viewBox="0 0 24 24" fill="#94a3b8">
@@ -1082,7 +1082,7 @@
                             </div>
                             <div class="doc-frame">
                                 @if($birthDoc)
-                                    <img src="{{ asset('storage/' . $birthDoc->file_path) }}" alt="شهادة ميلاد اليتيم">
+                                    <img src="{{ $birthDoc->file_url }}" alt="شهادة ميلاد اليتيم">
                                 @else
                                     <div class="doc-placeholder">
                                         <svg viewBox="0 0 24 24">
@@ -1104,7 +1104,7 @@
                             </div>
                             <div class="doc-frame">
                                 @if($deathDoc)
-                                    <img src="{{ asset('storage/' . $deathDoc->file_path) }}" alt="إفادة وفاة الأب">
+                                    <img src="{{ $deathDoc->file_url }}" alt="إفادة وفاة الأب">
                                 @else
                                     <div class="doc-placeholder">
                                         <svg viewBox="0 0 24 24">
@@ -1126,7 +1126,7 @@
                             </div>
                             <div class="doc-frame">
                                 @if($custodyDoc)
-                                    <img src="{{ asset('storage/' . $custodyDoc->file_path) }}" alt="شهادة الوصاية القانونية">
+                                    <img src="{{ $custodyDoc->file_url }}" alt="شهادة الوصاية القانونية">
                                 @else
                                     <div class="doc-placeholder">
                                         <svg viewBox="0 0 24 24">
@@ -1148,7 +1148,7 @@
                             </div>
                             <div class="doc-frame">
                                 @if($motherIdDoc)
-                                    <img src="{{ asset('storage/' . $motherIdDoc->file_path) }}" alt="صورة هوية الأم">
+                                    <img src="{{ $motherIdDoc->file_url }}" alt="صورة هوية الأم">
                                 @else
                                     <div class="doc-placeholder">
                                         <svg viewBox="0 0 24 24">

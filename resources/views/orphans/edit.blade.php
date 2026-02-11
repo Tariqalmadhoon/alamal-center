@@ -105,7 +105,7 @@
                 <div class="photo-upload-container">
                     @if($orphan->photo)
                         <div class="current-photo">
-                            <img src="{{ asset('storage/' . $orphan->photo) }}" alt="الصورة الحالية">
+                            <img src="{{ $orphan->photo_url }}" alt="الصورة الحالية">
                             <p>الصورة الحالية</p>
                         </div>
                     @endif
@@ -221,7 +221,7 @@
                     <label class="form-label">شهادة ميلاد اليتيم</label>
                     @if($birthDoc)
                         <div class="doc-current-image">
-                            <img src="{{ asset('storage/' . $birthDoc->file_path) }}" alt="شهادة الميلاد">
+                            <img src="{{ $birthDoc->file_url }}" alt="شهادة الميلاد">
                             <p>الوثيقة الحالية</p>
                         </div>
                     @endif
@@ -240,7 +240,7 @@
                     <label class="form-label">إفادة وفاة الأب</label>
                     @if($deathDoc)
                         <div class="doc-current-image">
-                            <img src="{{ asset('storage/' . $deathDoc->file_path) }}" alt="إفادة الوفاة">
+                            <img src="{{ $deathDoc->file_url }}" alt="إفادة الوفاة">
                             <p>الوثيقة الحالية</p>
                         </div>
                     @endif
@@ -259,7 +259,7 @@
                     <label class="form-label">شهادة الوصاية القانونية</label>
                     @if($custodyDoc)
                         <div class="doc-current-image">
-                            <img src="{{ asset('storage/' . $custodyDoc->file_path) }}" alt="شهادة الوصاية">
+                            <img src="{{ $custodyDoc->file_url }}" alt="شهادة الوصاية">
                             <p>الوثيقة الحالية</p>
                         </div>
                     @endif
@@ -278,7 +278,7 @@
                     <label class="form-label">صورة هوية الأم</label>
                     @if($motherIdDoc)
                         <div class="doc-current-image">
-                            <img src="{{ asset('storage/' . $motherIdDoc->file_path) }}" alt="هوية الأم">
+                            <img src="{{ $motherIdDoc->file_url }}" alt="هوية الأم">
                             <p>الوثيقة الحالية</p>
                         </div>
                     @endif

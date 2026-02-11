@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Support\MediaUrl;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -48,5 +49,10 @@ class Document extends Model
     public function getTypeNameAttribute()
     {
         return self::$typeNames[$this->type] ?? $this->type;
+    }
+
+    public function getFileUrlAttribute()
+    {
+        return MediaUrl::for($this->file_path);
     }
 }

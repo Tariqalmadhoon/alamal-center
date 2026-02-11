@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Support\MediaUrl;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Carbon\Carbon;
@@ -144,5 +145,10 @@ class Orphan extends Model
     public function getBenefitsCountAttribute()
     {
         return $this->benefits()->count();
+    }
+
+    public function getPhotoUrlAttribute()
+    {
+        return MediaUrl::for($this->photo);
     }
 }

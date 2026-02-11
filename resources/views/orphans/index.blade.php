@@ -58,7 +58,7 @@
                         <tr>
                             <td>
                                 @if($orphan->photo)
-                                    <img src="{{ asset('storage/' . $orphan->photo) }}" alt="صورة اليتيم" 
+                                    <img src="{{ $orphan->photo_url }}" alt="صورة اليتيم" 
                                          style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent-green);">
                                 @else
                                     <div style="width: 45px; height: 45px; border-radius: 50%; background: #e2e8f0; display: flex; align-items: center; justify-content: center;">
